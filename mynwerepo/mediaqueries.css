@@ -1,0 +1,24 @@
+@media screen and (max-width:1400px) {
+    #profile {
+        height: 83vh;
+        margin-bottom: 6rem;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    #desktop-nav {
+        display: none;
+    } /* desktop nav only appears at the screen sizxze of 1200px and above */
+    #hamburger-nav {
+        display: flex;
+    }
+    #profile, .section-container {
+        display: block;
+    }
+    .section__pic-container {
+        width: 275px;
+        height: 275px;
+        margin: 0 auto 2rem;
+    }
+}
+
